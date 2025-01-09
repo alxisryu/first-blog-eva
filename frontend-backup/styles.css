@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'AppleGaramond';
+    src: url('./fonts/apple_garamond/AppleGaramond.ttf') format('truetype'); 
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    font-family: 'AppleGaramond', sans-serif;
+    color: black;
     text-align: center;
     padding: 1rem;
 }
